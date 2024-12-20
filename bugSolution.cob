@@ -1,0 +1,1 @@
+01  WS-AREA-1 PIC X(100). 01  WS-AREA-2 PIC 9(5) VALUE 0. 01 WS-NUMERIC-AREA PIC 9(5). MOVE 'some data' TO WS-AREA-1. ADD 1 TO WS-AREA-2. IF WS-AREA-2 > 10 THEN PERFORM some-routine END-IF.  *Corrected section to handle numeric operations*  MOVE 10 TO WS-NUMERIC-AREA. IF WS-AREA-2 > WS-NUMERIC-AREA THEN PERFORM some-routine END-IF.
