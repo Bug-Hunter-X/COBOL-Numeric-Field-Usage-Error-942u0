@@ -1,0 +1,1 @@
+This example showcases a common error in COBOL programs: attempting to perform arithmetic operations on alphanumeric fields, leading to unexpected results or runtime errors. The `bug.cob` file demonstrates the incorrect code, and `bugSolution.cob` provides the corrected version, which explicitly handles numeric and alphanumeric fields separately.
